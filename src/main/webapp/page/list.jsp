@@ -24,16 +24,16 @@
 <input type="button" value="添加面试人员" onclick="add()">
 <table>
   <tr>
-    <th>应聘人</th>
-    <th>性别</th>
-    <th>年龄</th>
-    <th>毕业学校</th>
-    <th>所学专业</th>
-    <th>学历</th>
-    <th>学位</th>
-    <th>面试成绩</th>
-    <th>平均成绩</th>
-    <th>操作</th>
+    <th>应聘人:</th>
+    <th>性别:</th>
+    <th>年龄:</th>
+    <th>毕业学校:</th>
+    <th>所学专业:</th>
+    <th>学历:</th>
+    <th>学位:</th>
+    <th>面试成绩:</th>
+    <th>平均成绩:</th>
+    <th>操作:</th>
   </tr>
   <c:forEach items="${getlist.list}" var="list">
 	  <tr>
